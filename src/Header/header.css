@@ -1,0 +1,11 @@
+.Header {
+  background-color: yellowgreen;
+  color: beige;
+  height: 10vh;
+  display: flex;
+}
+.Header h1 {
+  /* margin-right: auto; */
+  /* margin-left: 2vw; */
+  margin: auto auto auto 2vw;
+}

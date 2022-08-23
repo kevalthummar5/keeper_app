@@ -1,0 +1,51 @@
+.Keepitem {
+  max-width: 300px;
+  color: black;
+  font-size: 0.9rem;
+  text-align: justify;
+  line-height: 0.9rem;
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* overflow: auto; */
+  padding-top: 10px;
+  min-width: 350px;
+  position: relative;
+  font-family: "Calibri", "Trebuchet MS", sans-serif;
+
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+.Keepitem h4 {
+  margin-left: auto;
+  text-align: end;
+  /* padding-bottom: 20px; */
+  position: relative;
+  color: grey;
+  width: fit-content;
+}
+.Keepitem h2 {
+  margin: 0px 10px 0px 0;
+}
+.Keepitem p {
+  margin: 0px 10px 10px 0;
+}
+.Keepitem .btn {
+  padding: 3px 10px;
+  margin-bottom: 0%;
+  float: right;
+  margin-left: 280px;
+  position: relative;
+  border-radius: 12px;
+  background-color: rgb(235, 71, 71);
+  color: wheat;
+  border: 2px solid rgba(255, 255, 255, 0.553);
+  box-shadow: 0 0 7px rgba(255, 255, 255, 0.853) inset;
+  z-index: 2;
+}
+.btn:hover {
+  background-color: rgb(241, 0, 0);
+  color: rgb(252, 252, 252);
+  cursor: pointer;
+  /* padding: 6px 14px; */
+}
