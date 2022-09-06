@@ -1,5 +1,5 @@
 .Card {
-  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(to bottom right, #dad299, #b0dab9);
   color: grey;
   border-radius: 20px;
   margin: 3vh 30px;
